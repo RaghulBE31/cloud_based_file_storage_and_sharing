@@ -18,5 +18,4 @@ To deploy on Firebase Hosting:
 2. Initialize Firebase: `firebase init`.
 3. Deploy: `firebase deploy`.
 
-## License:
-This project is licensed under the MIT License.
+
