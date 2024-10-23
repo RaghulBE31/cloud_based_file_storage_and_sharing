@@ -1,19 +1,22 @@
 # cloud_based_file_storage_and_sharing
-Description
-A cloud-based file storage and sharing system built using Firebase. Users can upload, download, and share files in real-time. Firebase authentication is used for secure login, and the interface is designed with HTML, CSS, and JavaScript.
+# Firebase File Upload/Download App
 
-Features
-Real-time file upload and download.
-Firebase authentication.
-Firebase Realtime Database for file management.
+This is a simple web app built using HTML, CSS, and JavaScript for uploading and downloading files from Firebase Storage.
 
-Technologies
-HTML, CSS, JavaScript
-Firebase
+## Features:
+- Upload files to Firebase Storage.
+- Download files from Firebase by specifying the file name.
 
-How to Run
- Set up Firebase:
-  Create a Firebase project.
-  Add Firebase Authentication and Realtime Database.
-Deploy the web app
- firebase deploy(run on bash)
+## Setup:
+1. Clone the repository.
+2. Update the Firebase configuration in `app.js` with your own Firebase project credentials.
+3. Run the app locally by opening `index.html` in a web browser.
+
+## Firebase Hosting:
+To deploy on Firebase Hosting:
+1. Install Firebase CLI: `npm install -g firebase-tools`.
+2. Initialize Firebase: `firebase init`.
+3. Deploy: `firebase deploy`.
+
+## License:
+This project is licensed under the MIT License.
